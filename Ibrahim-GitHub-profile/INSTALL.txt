@@ -1,0 +1,11 @@
+IBRAHIM'S GITHUB PROFILE — INSTALLATION
+
+This package is prepared for github.com/ibrahimadel000/ibrahimadel000. The existing README will be replaced; save a copy first if you want to keep it.
+
+1. Extract this archive. Copy README.md, assets/, and .github/ into the root of the ibrahimadel000/ibrahimadel000 repository on its main branch. Merge .github/ with any existing folder; do not delete unrelated workflows.
+2. In repository Settings > Actions > General, allow Actions and ensure workflow permissions permit read and write access to repository contents.
+3. Commit and push the files to main. The "Generate contribution snake" workflow starts on push; alternatively run it from Actions using "Run workflow".
+4. Wait for the workflow to finish successfully. It creates/updates the output branch with the four composed SVGs and snake SVGs. The profile may show a broken image until this first run completes. GitHub caches images; changes can take a little time to appear.
+5. The workflow refreshes the snake daily. Project art is conceptual. The email and project descriptions can be reviewed before publishing. The artwork is a single image, so individual projects and the email are not clickable.
+
+If GitHub rejects the workflow or branch creation, check Actions permissions and branch protection settings. The workflow publishes to the output branch and does not modify main after installation.
